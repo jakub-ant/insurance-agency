@@ -1,0 +1,359 @@
+body,
+html,
+main {
+    /* important */
+    height: 100%;
+    font-family: 'Comfortaa', cursive;
+    background: #ffffff;
+    color: #ffffff;
+}
+
+.main-wrapper {
+    margin-top: 205px;
+}
+
+@media (max-width: 600px) {
+    .desktop-header {
+        display: none;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    clear: both;
+    padding: 50px 30px;
+}
+
+#header-uo {
+    padding: 20px 30px;
+}
+
+header {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #434753;
+    border-bottom: 1px solid #2f323b;
+    font-family: "Jura";
+}
+
+h1 {
+    color: #ffffff;
+}
+
+a {
+    color: #00D9FF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #009BB7;
+}
+
+.nav-logo,
+.nav-logo-uo {
+
+    z-index: 2;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.nav-logo-uo {
+    width: 850px;
+    padding: 20px 0px;
+    margin: auto;
+}
+
+.imgHeader {
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    text-align: center;
+    max-width: 960px;
+    margin: 0 auto;
+    opacity: 0.6;
+}
+
+@media (min-width: 600px) {
+    .imgHeader {
+        width: 100%;
+    }
+}
+
+.nav-logo h1 {
+    font-size: 28px;
+    font-family: "Jura";
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 25px;
+    margin-left: 30px;
+}
+
+
+
+.nav-logo-uo h1 {
+    font-size: 20px;
+    font-family: "Jura";
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    margin-left: 30px;
+}
+
+.imgHeader h1 {
+    font-size: 30px;
+    font-family: "Jura";
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+    color: #ffffff;
+}
+
+@media (min-width: 600px) {
+    .imgHeader h1 {
+        font-size: 40px;
+        letter-spacing: 38px;
+    }
+}
+
+.blueHeader {
+    border: 2px solid #434753;
+}
+
+.blueHeader h1 {
+    color: #434753;
+}
+
+.main-menu-content #main-menu {
+    display: none;
+    margin-top: 10px;
+}
+
+.main-menu-content {
+    float: right;
+    padding: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+main h1 {
+    color: #009BB7;
+    font-size: 120%;
+    padding: 0 0 5px 0;
+}
+
+.main-menu-content #main-menu li {
+    float: left;
+    display: block;
+}
+
+.main-menu-content #main-menu li a:hover {
+
+    cursor: pointer;
+}
+
+
+#firstParagraf {
+    margin-top: 150px;
+}
+
+ul li a {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 5px;
+    font-weight: 400;
+    padding: 20px 14px;
+    line-height: 20px;
+    transition: all 0.2s;
+}
+
+.tabulator {
+    background-color: transparent;
+    border: none;
+    width: 1810px;
+}
+
+.tabulator-col,
+.tabulator-cell {
+    display: block !important;
+    height: auto !important;
+    min-height: 75px;
+    border: 1px solid #ccc !important;
+    font-weight: normal;
+}
+
+.tabulator-cell {
+    width: 70px !important;
+    font-size: 12px;
+}
+
+.tabulator-row {
+    display: inline-block !important;
+}
+
+.tabulator-header {
+    display: inline-block !important;
+    width: 300px !important;
+    float: left !important;
+    font-size: 12px;
+}
+
+.tabulator-tableHolder {
+    display: inline-block !important;
+    width: 83% !important;
+}
+
+.cd-scrolling-bg1 {
+    margin-top: 170px !important;
+    width: 96% !important;
+    padding: 2% !important;
+}
+
+.tabulator-row.tabulator-selectable:hover,
+.tabulator-row.tabulator-row-even {
+    background-color: transparent;
+}
+
+.tabulator .tabulator-header .tabulator-col .tabulator-header-filter {
+    text-align: left;
+}
+
+.tabulator .tabulator-header .tabulator-col .tabulator-header-filter input {
+    text-align: left;
+    margin-right: 10px;
+}
+
+.btnTable {
+    background-color: #434753;
+}
+
+.btnTable:hower {
+    cursor: pointer !important;
+    background-color: #cdcdcd !important;
+}
+
+.tableButtonLink {
+    padding: 25px 28px 31px 8px;
+    position: relative;
+    top: 21px;
+    left: -4px;
+}
+
+.tabulator-row.tabulator-selectable:hover {
+    cursor: default;
+}
+
+.tabulator .tabulator-header .HeaderTableLink .tabulator-col-content .tabulator-arrow {
+    display: none;
+     !important
+}
+
+
+.cd-fixed-bg {
+    padding: 12%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+@media (max-height: 680px) {
+    .cd-fixed-bg {
+        padding: 6% 12%;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
+
+.cd-fixed-bg.cd-bg-1 {
+    background-image: url("../images/adorable-1850465_1920.jpg");
+}
+
+.cd-fixed-bg.cd-bg-2 {
+    background-image: url("../images/architecture-1867426_1920.jpg");
+}
+
+.cd-fixed-bg.cd-bg-3 {
+    background-image: url("../images/backcountry-skiiing-1363750_1920.jpg");
+}
+
+.cd-fixed-bg.cd-bg-4 {
+    background-image: url("../images/beach-1149146_1920.jpg");
+}
+
+.cd-scrolling-bg {
+    padding: 7% 10%;
+    color: #84898c;
+}
+
+.cd-container {
+    text-align: justify;
+    padding: 10px;
+    border-bottom: 1px solid #ececec;
+    border-top: 1px solid #ececec;
+}
+
+#map {
+    text-align: center;
+}
+
+.contact {
+    width: 49%;
+    display: inline-block;
+}
+
+#contactContainer .cd-container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+#contactContainer {
+    padding: 3% 0;
+}
+
+.tabulator .tabulator-header .tabulator-col .tabulator-col-content .tabulator-col-title {
+    white-space: normal;
+    color: #00D9FF;
+}
+
+.tabulator .tabulator-header .tabulator-col {
+    background-color: #434753;
+    color: #fff;
+}
+
+.logoUBA {
+    width: 50px;
+    margin-top: 25px;
+}
+
+.logoUBG {
+    width: 45px;
+    margin-left: 5px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .slicknav_menu {
+        display: none;
+    }
+
+    .main-menu-content #main-menu {
+        display: block;
+    }
+
+    ul li a {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    ul li a {
+        padding: 20px 22px;
+    }
+}
