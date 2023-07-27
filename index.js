@@ -8,11 +8,17 @@ const sections = sectionsIds.reduce(
   {}
 );
 sectionsIds.forEach((selector) => {
-  document.getElementById(selector).addEventListener("click", () => {
+  document.querySelector(`.${selector}`).addEventListener("click", () => {
+    console.log("efsefsdf");
     sections[selector].scrollIntoView({
       behavior: "smooth",
       inline: "start",
       block: "center",
     });
   });
+});
+
+const hamburgerMenu = document.querySelector(".hamburger-menu");
+hamburgerMenu.addEventListener("click", () => {
+  hamburgerMenu.classList.toggle("hamburger-menu-open");
 });
