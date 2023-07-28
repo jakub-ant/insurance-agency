@@ -19,6 +19,9 @@ sectionsIds.forEach((selector) => {
 });
 
 const hamburgerMenu = document.querySelector(".hamburger-menu");
+const asideMenu = document.querySelector(".aside-menu");
+
 hamburgerMenu.addEventListener("click", () => {
   hamburgerMenu.classList.toggle("hamburger-menu-open");
+  asideMenu.classList.toggle("aside-menu-open");
 });
