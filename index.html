@@ -12,14 +12,20 @@
     minimum-scale=1.0, maximum-scale=1.0, 
     user-scalable=no, target-densitydpi=device-dpi">
     <link rel="stylesheet" href="style/reset.css" type="text/css">
-    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/utils.css" type="text/css">
+    <link rel="stylesheet" href="style/tag-styles.css" type="text/css">
+    <link rel="stylesheet" href="style/style.css" type="text/css">
+    <link rel="stylesheet" href="style/hamburger-menu.css" type="text/css">
+    <link rel="stylesheet" href="style/mobile-header.css" type="text/css">
+    <link rel="stylesheet" href="style/desktop-header.css" type="text/css">
+    link
 </head>
 
 <body>
     <header class="desktop-header">
         <nav>
-            <div class="container">
-                <div class="navbar">
+            <div class="desktop-header-inner-container">
+                <div class="navbar max-width">
                     <div class="nav-logo">
                         <h1 id="mainHeader">MULTIAGENCJA</h1>
                         <p><a>Ubezpieczenia dla każdego</a></p>
@@ -40,7 +46,7 @@
 
     <header class="mobile-header">
         <nav>
-            <div class="navbar">
+            <div class="max-width">
                 <div class="nav-logo-mobile">
                     <h1>MULTIAGENCJA</h1>
                     <p><a class="about" data-device="mobile">Ubezpieczenia dla każdego</a></p>
@@ -62,7 +68,7 @@
     </header>
 
     <main class="main-wrapper">
-        <div class="cd-scrolling-bg cd-color-2 " id="about-section">
+        <div class="cd-scrolling-bg cd-color-2 max-width  " id="about-section">
             <div class="cd-container">
                 <h1>Witamy na stronie multiagencji ubezpieczeniowej.</h1>
                 <p>Nasza Firma pomoże dokonać wyboru optymalnego ubezpieczenia lub kompleksowego pakietu
@@ -72,10 +78,9 @@
                     ubezpieczeniowych, dzięki czemu zaoszczędzą Państwo swój cenny czas potrzebny na zapoznanie się z
                     aktualną
                     ofertą na rynku.</p>
-                <p>Nasze biura znajdują się <a href="#6" class="menu-link-active">w Krakowie w Bronowicach i w
+                <p>Nasze biura znajdują się <a class="menu-link-active contact">w Krakowie w Bronowicach i w
                         Wieliczce</a>.
                 </p>
-                <a name="2"></a>
             </div>
         </div>
         <div class="cd-fixed-bg cd-bg-1" id="car-section">
@@ -83,7 +88,7 @@
                 <h1>samochód</h1>
             </div>
         </div>
-        <div class="cd-scrolling-bg cd-color-2">
+        <div class="cd-scrolling-bg cd-color-2 max-width ">
             <div class="cd-container">
                 <p>OC – jest to obowiązkowe ubezpieczenie posiadaczy pojazdów mechanicznych. Każdy zarejestrowany pojazd
                     musi
@@ -108,14 +113,14 @@
                     przypadku dalszych podróży. Szeroki zakres pozwala wybrać wariant dopasowany do konkretnych potrzeb.
                 </p>
                 <p>NW – jest to ubezpieczenie, które swoją ochroną obejmuje życie i zdrowie kierowcy oraz pasażerów.</p>
-            </div><a name="3"></a>
+            </div>
         </div>
         <div class="cd-fixed-bg cd-bg-2" id="house-section">
             <div class="imgHeader">
                 <h1>Dom i mieszkanie</h1>
             </div>
         </div>
-        <div class="cd-scrolling-bg cd-color-2">
+        <div class="cd-scrolling-bg cd-color-2 max-width ">
             <div class="cd-container">
                 <p>Ubezpieczenie domu lub mieszkania to ochrona dla nieruchomości od zalania, pożaru, silnego wiatru i
                     wielu
@@ -128,14 +133,14 @@
                     obejmuje
                     również
                     szkody powstałe wskutek amatorskiego uprawiania sportu oraz spowodowane przez zwierzęta domowe.</p>
-            </div><a name="4"></a>
+            </div>
         </div>
         <div class="cd-fixed-bg cd-bg-3" id="tourism-section">
             <div class="imgHeader">
                 <h1>Turystyka</h1>
             </div>
         </div>
-        <div class="cd-scrolling-bg cd-color-2">
+        <div class="cd-scrolling-bg cd-color-2 max-width ">
             <div class="cd-container">
                 <p>Ubezpieczenie turystyczne to ochrona podczas podróży zagranicznej. Zapewnia pomoc finansową w razie
                     konieczności skorzystania z pomocy medycznej. Chroni również przed bardzo wysokimi kosztami
@@ -147,11 +152,11 @@
                     snowboardzie.</p>
             </div>
         </div>
-        <div class="imgHeader blueHeader" id="contact-section">
+        <div class="imgHeader blueHeader max-width" id="contact-section">
             <h1>Kontakt</h1>
         </div>
-        <div class="cd-scrolling-bg cd-color-2">
-            <div class="contact">
+        <div class="cd-scrolling-bg cd-color-2 flex-space-between flex-wrap max-width">
+            <div>
                 <div class="cd-container">
 
                     <p>Zapraszamy:</p>
@@ -164,7 +169,7 @@
 
                 </div>
             </div>
-            <div class="contact">
+            <div>
                 <div class="cd-container">
                     <p>Zapraszamy:</p>
                     <p> pn. - czw. 10.00 - 18.00</p>
@@ -176,7 +181,7 @@
                 </div>
             </div>
         </div>
-        <div id="map">
+        <div class="max-width text-align-center" id="map">
             <div class="contact">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5120.758065169964!2d19.884546!3d50.07919!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x46d03884928836b9!2sMultiagencja+Ubezpieczeniowa!5e0!3m2!1spl!2spl!4v1486765114973"
